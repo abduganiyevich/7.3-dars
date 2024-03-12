@@ -1,0 +1,44 @@
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top: 80px;
+}
+
+.home-container .home-right img{
+    border: 15px solid black;
+    width: 400px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.home-container .home-left{
+    width:450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-container .home-left h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #394E6A;
+}
+
+.home-container .home-left p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.home-container .home-left button{
+    padding: 18px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: 18px;
+    background-color: rgb(79, 79, 212);
+    border: none;
+    color: white;
+    cursor: pointer;
+   margin-right: auto;
+}

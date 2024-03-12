@@ -1,0 +1,28 @@
+.about-wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-wrapper h1{
+    font-size: 60px;
+    font-weight: 900;
+    color: #394E6A;
+    margin-bottom: 20px;
+}
+
+.about-wrapper h1 span{
+    color: white;
+    background-color: rgb(87, 87, 205);
+    padding: 10px;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+.about-wrapper p{
+    width: 600px;
+    font-size: 18px;
+    line-height: 30px;
+}
